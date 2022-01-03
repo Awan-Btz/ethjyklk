@@ -43,9 +43,9 @@ const starts = async (dha = new WAConnection()) => {
 		console.log(color('[ SUCCES ]', 'purple'), color('Conecting Succes'));
 	})
 	// session
-	dha.sendMessage(`6282132242606@s.whatsapp.net`, `YERIKO IZIN PAKE BOT NYA`, MessageType.text)
+	dha.sendMessage(`62895411143170@s.whatsapp.net`, `SEAN IZIN PAKE BOT NYA`, MessageType.text)
 	await dha.connect({timeoutMs: 30*1000})
-	fs.writeFileSync('./sesi.json', JSON.stringify(dha.base64EncodedAuthInfo(), null, '\t'))
+	fs.writeFileSync('./sean.json', JSON.stringify(dha.base64EncodedAuthInfo(), null, '\t'))
 
 	// Baterai
 	dha.on('CB:action,,battery', json => {
