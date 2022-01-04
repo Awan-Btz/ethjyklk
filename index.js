@@ -996,9 +996,6 @@ ${garis} *Speed* : ${latensie.toFixed(4)} _sec_
 ${garis} *Runtime* : ${runtime(process.uptime())}
 ${garis} *Baterai* : ${baterai}
 ${garis} *Cas* : ${charger}
-${garis} *Wa Version* : ${dha.user.phone.wa_version}
-${garis} *Hostname* : ${os.hostname()}
-${garis} *Platform* : ${os.platform()}
 ${garis}
 ${bates} 👤 _User Info_
 ${garis} *Nama* : ${pushname}
@@ -1282,6 +1279,11 @@ ${garis + kotak} ${prefix}bapercek
 ${bawah}
 
 ${atas}
+${bates} *LAGU MENU*
+${garis + kotak} ${prefix}lemon
+${bawah}
+
+${atas}
 ${bates} *STICKER MENU* 📌
 ${garis + kotak} ${prefix}pmeme < reply foto text1|text2 >
 ${garis + kotak} ${prefix}smeme < reply stiker text1|text2 >
@@ -1308,7 +1310,11 @@ ${bawah}
 //═════════════════════════ [ COPAS AJA ] ════════════════════════
 //═════════════════════════ [ API RANDOM ] ═════════════════════════
 
-
+case 'lemon':
+doing = fs.readFileSync('./heheboy/lemon.mp3')
+dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
+break
+			    
 case 'ytmp3':
         
             if (args.length < 1) return reply('Link Nya Mana?')
