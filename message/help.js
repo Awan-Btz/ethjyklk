@@ -114,11 +114,8 @@ exports.wibuMenu = (prefix) => {
 ▢️ ${prefix}kusonime
 ▢️ ${prefix}megumin
 ▢ ${prefix}otakudesu
-▢️ ${prefix}doujindesu
 ▢️ ${prefix}storyanime
 ▢️ ${prefix}otakuongoing
-▢ ${prefix}nhentai *code*
-▢️ ${prefix}nekopoi *link*
 
 `
 }
@@ -164,7 +161,6 @@ exports.groupMenu = (prefix) => {
 ▢ ${prefix}setdeskgc
 ▢ ${prefix}sider *reply chat bot*
 ▢ ${prefix}hidetag *teks/reply teks*
-▢ ${prefix}linkgc
 `
 }
 exports.downloadMenu = (prefix) => {
@@ -227,10 +223,7 @@ LIST HARGA SEWA BOTZ
 ▢ PERBULAN 15K
 ▢ PERMANEN 40K
 MINAT HIBUNGI OWNER
-wa.me/6282287486762
-
-YG MAU TOP UP GAME MARI JOIN
-https://chat.whatsapp.com/KUb8JJwppqL3zLS7p9xXx7`
+wa.me/62895411143170`
 }
 exports.infoMenu = (prefix) => {
 return `
@@ -336,22 +329,8 @@ SEDANGMAINTENANCE / PROSES PEMBUATAN
 exports.dewasaMenu = (prefix) => {
 return`
 *────❲DEWASA MENU❳────*
-
-▢ ${prefix}xnxx *link*
-▢ ${prefix}xnxxsearch
-▢ ${prefix}asupan
-▢ ${prefix}randombokep
-▢ ${prefix}desah
-▢ ${prefix}desah1
-▢ ${prefix}desah2
-▢ ${prefix}desah3
-▢ ${prefix}desah4
-▢ ${prefix}desah5
-▢ ${prefix}desah6
-
-
 NOTE:
-_ANAK DI BAWAH UMUR 18 TAHUN JANGAN GUNAKAN FITUR INI NANTI LU SANGE🗿_
+_TOBAT BRO TOBAT🗿_
 `}
 exports.soundMenu = (prefix) => {
 return`
@@ -429,7 +408,7 @@ return`
 
 `}
 exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount, sender, baterai) => {
-    return `━━━━━『DHA BOTZ』━━━━━
+    return `━━━━━『BOTZ』━━━━━
 
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -438,10 +417,8 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *DHA BOTZ*
-❏ API : @6282288265627
-❏ OWNER : *YUDHA PERDANA*
-❏ API : *@6282W87486762*
+❏ NAMA : *Sean BOTZ*
+❏ OWNER : *Sean*
 ❏ TOTAL HIT : *${cmhit.length}x HIT*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
@@ -492,7 +469,6 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 *▢ ${prefix}setdeskgc*
 *▢ ${prefix}sider* _reply chat bot_
 *▢ ${prefix}hidetag* _teks/reply teks_
-*▢ ${prefix}linkgc*
 *▢ ${prefix}getdeskgc*
 
 𝖦𝖠𝖬𝖤 𝖬𝖤𝖭𝖴 
@@ -661,22 +637,7 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 *▢ ${prefix}upswgif* _gif_
 
 𝖣𝖤𝖶𝖠𝖲𝖠 𝖬𝖤𝖭𝖴 
-*▢ ${prefix}xnxx* _link_
-*▢ ${prefix}xnxxsearch*
-*▢ ${prefix}asupan*
-*▢ ${prefix}asupansantuy*
-*▢ ${prefix}asupanbocil*
-*▢ ${prefix}asupanukhty*
-*▢ ${prefix}asupanrikagusriani*
-*▢ ${prefix}asupanghea*
-*▢ ${prefix}randombokep*
-*▢ ${prefix}desah*
-*▢ ${prefix}desah1*
-*▢ ${prefix}desah2*
-*▢ ${prefix}desah3*
-*▢ ${prefix}desah4*
-*▢ ${prefix}desah5*
-*▢ ${prefix}desah6*
+*▢ Tidak Tersedia
 
 𝖯𝖤𝖭𝖣𝖨𝖣𝖨𝖪𝖠𝖭 𝖬𝖤𝖭𝖴 
 *▢ ${prefix}nulis*
@@ -826,4 +787,4 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 *▢ ${prefix}memeindo*
 *▢ ${prefix}darkjoke*
 
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 𝒃𝒚 𝒚𝒖𝒅𝒉𝒂 𝒑𝒆𝒓𝒅𝒂𝒏𝒂`}
+©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 𝒃𝒚 Sean`}
