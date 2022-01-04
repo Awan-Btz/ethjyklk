@@ -34,7 +34,7 @@ const starts = async (dha = new WAConnection()) => {
 	})
 
 	// Menghubungkan
-	fs.existsSync(`./sesi.json`) && dha.loadAuthInfo(`./sesi.json`)
+	fs.existsSync(`./sean.json`) && dha.loadAuthInfo(`./sean.json`)
 	dha.on('connecting', () => {
 		console.log(color('[ MESS ]', 'purple'), color('Connecting Process'));
 	})
