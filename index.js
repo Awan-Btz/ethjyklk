@@ -1282,7 +1282,7 @@ ${atas}
 ${bates} *LAGU MENU*
 ${garis + kotak} ${prefix}lemon
 ${garis + kotak} ${prefix}opblackclover10
-${garis + kotak} ${prefix}WhereverYouWouldCallMe
+${garis + kotak} ${prefix}whereveryouwouldcallme
 ${bawah}
 
 ${atas}
@@ -1320,7 +1320,7 @@ doing = fs.readFileSync('./heheboy/opbc10.mp3')
 dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
 break
 
-case 'WhereverYouWouldCallMe':
+case 'whereveryouwouldcallme':
 doing = fs.readFileSync('./heheboy/Wherever.mp3')
 dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
 break
