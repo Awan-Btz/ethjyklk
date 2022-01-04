@@ -2503,8 +2503,7 @@ _PERMINGGU_ : ${HargaPerminggu}
 
 _SEWA PREMIUM_ : ${HargaPremium}
 
-_BUY SC_ : https://github.com/Yerikognz/mybot2
-[ *SC FREE NO BUY* ]
+[ *SC FREE NO BUY(chat owner)* ]
 
 💸 _PAYMENT_
  
