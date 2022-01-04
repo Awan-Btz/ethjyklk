@@ -1281,6 +1281,8 @@ ${bawah}
 ${atas}
 ${bates} *LAGU MENU*
 ${garis + kotak} ${prefix}lemon
+${garis + kotak} ${prefix}opblackclover10
+${garis + kotak} ${prefix}WhereverYouWouldCallMe
 ${bawah}
 
 ${atas}
@@ -1294,12 +1296,10 @@ ${bawah}
 ${atas}
 ${bates} *OTHER MENU* 🔓
 ${garis + kotak} ${prefix}donasi
-${garis + kotak} ${prefix}script
 ${garis + kotak} ${prefix}runtime
 ${garis + kotak} ${prefix}speed
 ${garis + kotak} ${prefix}afk < alasan >
 ${garis + kotak} ${prefix}rules
-${garis + kotak} ${prefix}snk
 ${bawah}
 
     © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`! owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Upgrade'},type:1},{buttonId:`!script`,buttonText:{displayText:'Script'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${FakeYt}`,mediaType:"2",thumbnail:fs.readFileSync('./media/yt.jpg'),mediaUrl:`https://youtu.be/x-0WHkv3uc`}}})
@@ -1317,6 +1317,11 @@ break
 
 case 'opblackclover10':
 doing = fs.readFileSync('./heheboy/opbc10.mp3')
+dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
+break
+
+case 'WhereverYouWouldCallMe':
+doing = fs.readFileSync('./heheboy/Wherever.mp3')
 dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
 break
 			    
