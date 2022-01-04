@@ -265,7 +265,7 @@ module.exports = dha = async (dha, mek) => {
         const q = args.join(' ')
 	    const query = (teks) => {dha.sendMessage(from, `Kasih Query Woy`, text, {quoted:mek,contextInfo: {forwardingScore: 508, isForwarded: true}})}				
         const botNumber = dha.user.jid
-        const ownerNumber = [`${NOwner}`,`6282132242606@s.whatsapp.net`,`6281252440658@s.whatsapp.net`]
+        const ownerNumber = [`${NOwner}`,`62895359053690@s.whatsapp.net`,`6295411143170@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? dha.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -1045,7 +1045,6 @@ ${garis + kotak} ${prefix}setppgc
 ${garis + kotak} ${prefix}setdeskgc
 ${garis + kotak} ${prefix}sider *reply chat bot*
 ${garis + kotak} ${prefix}hidetag *teks/reply teks*
-${garis + kotak} ${prefix}linkgc
 ${bawah}
 
 ${atas}
@@ -1300,9 +1299,6 @@ ${garis + kotak} ${prefix}afk < alasan >
 ${garis + kotak} ${prefix}rules
 ${garis + kotak} ${prefix}snk
 ${bawah}
-
-║▌│█║▌│ █║▌│█│║▌║
-║▌│█║▌│ █║▌│█│║▌║
 
     © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`! owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Upgrade'},type:1},{buttonId:`!script`,buttonText:{displayText:'Script'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${FakeYt}`,mediaType:"2",thumbnail:fs.readFileSync('./media/yt.jpg'),mediaUrl:`https://youtu.be/x-0WHkv3uc`}}})
             break
@@ -2334,7 +2330,7 @@ Script Ori : Yudha
 Recode1 : Yeriko
 Recode2 : ${NamaOwner}
 
-Link Script : https://github.com/Yerikognz/mybot1
+Link Script : Chat ${NamaOwner}
 `
 dha.sendMessage(from, isc, image, {quoted: mek, caption: mastahb})
 break
