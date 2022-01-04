@@ -1314,6 +1314,11 @@ case 'lemon':
 doing = fs.readFileSync('./heheboy/lemon.mp3')
 dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
 break
+
+case 'opblackclover10':
+doing = fs.readFileSync('./heheboy/opbc10.mp3')
+dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
+break
 			    
 case 'ytmp3':
         
