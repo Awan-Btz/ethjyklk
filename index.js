@@ -1283,6 +1283,7 @@ ${bates} *LAGU MENU*
 ${garis + kotak} ${prefix}lemon
 ${garis + kotak} ${prefix}opblackclover10
 ${garis + kotak} ${prefix}whereveryouwouldcallme
+${garis + kotak} ${prefix}opblends
 ${bawah}
 
 ${atas}
@@ -1317,6 +1318,11 @@ break
 
 case 'opblackclover10':
 doing = fs.readFileSync('./heheboy/opbc10.mp3')
+dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
+break
+
+case 'opblends':
+doing = fs.readFileSync('./heheboy/blends.mp3')
 dha.sendMessage(from,doing,MessageType.audio, {quoted: mek, mimetype:'audio/mp4',ppt:true})
 break
 
